@@ -1,0 +1,17 @@
+[package]
+name = "aspose-note-foss"
+version = "26.9.0"
+edition = "2021"
+rust-version = "1.70"
+description = "Aspose.Note-compatible Rust API for reading Microsoft OneNote (.one) files"
+readme = "README.md"
+license = "MIT"
+keywords = ["onenote", "one", "aspose", "parser"]
+categories = ["parser-implementations", "filesystem"]
+repository = "https://github.com/aspose-note-foss/Aspose.Note-FOSS-for-Rust"
+
+[lib]
+name = "aspose_note"
+path = "src/lib.rs"
+
+[dependencies]
